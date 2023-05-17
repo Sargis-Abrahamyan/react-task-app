@@ -10,9 +10,8 @@ nav {
 .navbar_items_block {
     display: flex;
     justify-content: center;
-    gap: 3.2rem;
+    gap: 3rem;
     list-style: none;
-
 }
 
 .hidden {
