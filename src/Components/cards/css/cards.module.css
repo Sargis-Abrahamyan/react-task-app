@@ -52,8 +52,13 @@
 
 }
 
-@media screen and (max-width:1160px) {
+@media screen and (max-width:1161px) {
     .cards_wrapper {
         text-align: center;
     }
+
+    .close_modal_btn{
+        right: 2rem;
+    }
+
 }
