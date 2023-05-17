@@ -16,7 +16,8 @@ const NavItems = ({ items: { title, children }, index }) => {
             <li className={styles.navitems_dekstop}>
                 <div
                     className={styles.navitems}
-                    onMouseOver={() => setDropDownMenu(true)} onMouseOut={() => setDropDownMenu(false)}
+                    onMouseOver={() => setDropDownMenu(true)}
+                    onMouseOut={() => setDropDownMenu(false)}
                 >
                     <span>{title}</span>
                     {title !== 'Buy Now' && <img src={arrowDown} alt='ArroDownIcon' />}
@@ -30,7 +31,7 @@ const NavItems = ({ items: { title, children }, index }) => {
                                         key={id}
                                         onClick={() => setDropDownMenu(!dropDownMenu)}
                                     >
-                                        <a href={`#`} className={styles.link}>
+                                        <a href="#" className={styles.link}>
                                             {title}
                                         </a>
                                         <img src={arrowRightIcon} alt='ArrowRightIcon' />
@@ -40,7 +41,7 @@ const NavItems = ({ items: { title, children }, index }) => {
                         </ul>
                     ) : null}
                 </div>
-            </li>
+            </li >
 
             <li className={styles.navitems_mobile}>
                 <div
@@ -63,7 +64,7 @@ const NavItems = ({ items: { title, children }, index }) => {
                                         key={id}
                                         onClick={handelShowBar}
                                     >
-                                        <a href='#' className={styles.link}>
+                                        <a href="#" className={styles.link}>
                                             {title}
                                         </a>
                                         <img src={arrowRightIcon} alt='ArrowRightIcon' />

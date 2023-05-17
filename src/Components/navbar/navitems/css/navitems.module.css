@@ -14,7 +14,7 @@
 
 .dropdown_menu {
     width: 12.813rem;
-    height: 11.875rem;
+    height: 10.7rem;
     padding: 0.9rem;
     display: flex;
     flex-direction: column;
@@ -30,11 +30,12 @@
     display: flex;
     justify-content: space-between;
     padding: 0.6rem 0;
+    color: black;
 
 }
 
 .link {
-    font: 400 0.813rem/813rem var(--body-fonts);
+    font: 400 0.813rem/0.13rem var(--body-fonts);
     color: var(--primary-color);
     text-decoration: none;
     transition: 0.5s;
@@ -43,6 +44,8 @@
 
 .dropdown_items>.link:hover {
     color: var(--gray-primary-color);
+    text-indent: 0.3rem;
+
 }
 
 @keyframes animationdropDown {
