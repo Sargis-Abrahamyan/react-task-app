@@ -1,0 +1,54 @@
+.cards_block {
+    max-width: 22.5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.cards_content {
+    margin: 1rem 0;
+}
+
+.cards_tags {
+    font: 700 0.813rem/0.813rem var(--body-fonts);
+    color: rgba(235, 0, 40, 1);
+}
+
+.cards_title {
+    font: 700 1.5rem/1.875rem var(--body-fonts);
+    padding: 1rem 0;
+}
+
+.cards_info {
+    display: flex;
+    align-items: center;
+    gap: 1.313rem;
+    padding-bottom: 1rem;
+}
+
+.cards_autor {
+    font: 500 0.75rem/0.75rem var(--body-fonts);
+    color: var(--primary-color)
+}
+
+.cards_list {
+    display: flex;
+    gap: 1.563rem;
+    font: 400 0.75rem/0.75rem var(--body-fonts);
+    color: var(--gray-primary-color);
+}
+
+.cards_info_text {
+    text-align: left;
+    font: 400 0.875rem/1.25rem var(--body-fonts);
+    color: var(--gray-primary-color);
+}
+
+@media screen and (max-width:1160px) {
+    .cards_info {
+        justify-content: center;
+    }
+
+    .cards_info_text {
+        text-align: center;
+    }
+}

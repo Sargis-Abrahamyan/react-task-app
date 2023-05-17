@@ -1,0 +1,59 @@
+.cards_wrapper {
+    max-width: 72.5rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 2.5rem;
+}
+
+.modal_container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 85, 98, 0.9);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modal_box {
+    max-width: 22.5rem;
+    position: relative;
+    text-align: center;
+    color: var(--whate-primary-color);
+
+}
+
+.cards_info_text {
+    text-align: center;
+    font: 400 0.875rem/1.25rem var(--body-fonts);
+}
+
+.cards_title {
+    font: 700 1.5rem/1.875rem var(--body-fonts);
+    padding: 1rem 0;
+}
+
+.close_modal_btn {
+    width: 1.875rem;
+    height: 1.875rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    background-color: var(--red-primary-color);
+    color: var(--whate-primary-color);
+    border-radius: 0.625rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1160px) {
+    .cards_wrapper {
+        text-align: center;
+    }
+}
