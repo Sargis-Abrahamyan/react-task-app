@@ -63,14 +63,6 @@
 }
 
 @media screen and (max-width:760px) {
-    .navitems_dekstop {
-        display: none;
-    }
-
-    .navitems_mobile {
-        display: block;
-    }
-
     .navitems_mobile>.navitems {
         border-bottom: 1px solid var(--border-bootom-color);
     }
