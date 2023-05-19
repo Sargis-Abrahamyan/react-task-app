@@ -37,9 +37,11 @@ const NavBar = () => {
 
     return (
         <nav ref={navBarRef} >
-            <ul className={`${styles.navbar_items_block}`}>
-                {menuItems.map((items, index) => <NavItems key={items.id} items={items} index={index} />)}
-            </ul>
+            <div className={styles.NavBar_blocks_desktop}>
+                <ul className={`${styles.navbar_items_block}`}>
+                    {menuItems.map((items, index) => <NavItems key={items.id} items={items} index={index} />)}
+                </ul>
+            </div>
 
             <div className={`${showSideBar ? styles.show : styles.hide} ${styles.hidden}`}>
                 <div className={styles.mobile_logo_picture}>
