@@ -49,7 +49,7 @@ nav {
 }
 
 @media screen and (max-width:760px) {
-    .navbar_items_block {
+    .NavBar_blocks_desktop {
         display: none;
     }
 
